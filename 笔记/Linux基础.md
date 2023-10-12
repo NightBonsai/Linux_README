@@ -47,11 +47,13 @@
       /boot：		    系统盘，存储操作系统引导程序
       /dev：		    Linux系统中使用的外部硬件设备映射文件
       /etc：		    系统管理&配置文件
+  
         /etc/passwd		    用户信息
         /etc/shadow		    用户密码(已加密)
         /etc/group 		    组信息
-        /etc/rc.d			    启动的配置文件&脚本
-        /etc/profile.d/		系统启动后自动执行该目录下所有shell脚本
+        /etc/rc.d	            启动的配置文件&脚本
+        /etc/profile.d/		    系统启动后自动执行该目录下所有shell脚本
+  
       /lib：		    标准程序设计库/动态连接共享库	≈ Windows .dll文件
       /lost+found： 存储系统强制关闭时丢失的文件
       /mnt：		    分区的挂载点
