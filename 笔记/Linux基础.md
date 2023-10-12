@@ -10,7 +10,7 @@
 ### 2.Linux Qt cannot find -lGL错误完美解决方案：
 		
     Qt 找不到 OpenGL 的动态链接库（libGL.so）
-		Qt 默认在 /usr/lib/ 目录下查找动态链接库，但是很多 Linux 发行版将 OpenGL 链接库放在其它目录；只要我们把 libGL.so 拷贝到 /usr/lib/ 目录，或者在 /usr/lib/ 目录下为 libGL.so 创建一个链接，就能解决问题。显然第二种办法更好
+    Qt 默认在 /usr/lib/ 目录下查找动态链接库，但是很多 Linux 发行版将 OpenGL 链接库放在其它目录；只要我们把 libGL.so 拷贝到 /usr/lib/ 目录，或者在 /usr/lib/ 目录下为 libGL.so 创建一个链接，就能解决问题。显然第二种办法更好
 		
     #查找 libGL 所在位置
     [root@localhost ~]# locate libGL
@@ -47,7 +47,7 @@
       /boot：		    系统盘，存储操作系统引导程序
       /dev：		    Linux系统中使用的外部硬件设备映射文件
       /etc：		    系统管理&配置文件
-	      /etc/passwd		    用户信息
+        /etc/passwd		    用户信息
         /etc/shadow		    用户密码(已加密)
         /etc/group 		    组信息
         /etc/rc.d			    启动的配置文件&脚本
