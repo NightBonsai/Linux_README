@@ -13,7 +13,7 @@
 ### 运行.sh文件：
 
     cd /tmp                     # 进入到脚本所在的目录
-    chmod +x ./test.sh   			  # 使得脚本具有可执行权限，此处必须为 ./xxx
+    chmod +x ./test.sh   		# 使得脚本具有可执行权限，此处必须为 ./xxx
     ./test.sh                  	# 执行脚本
 
 ### Shell语法
