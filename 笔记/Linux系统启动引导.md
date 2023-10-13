@@ -6,14 +6,14 @@
 ## Linux系统启动引导
 
 ### 基于System V init启动方法
-- **1.内核引导**：
+- **1.内核引导**：<br>
 
       1.1.BIOS开机自检：  按照BIOS中设置的启动设备（硬盘）来启动，操作系统接管硬件
 	    1.2.读入内核文件：  读入 /boot 目录下的内核文件
 - <img width="250" alt="image" src="https://github.com/NightBonsai/Linux_README/assets/107353989/061eac61-296e-4b2a-a936-8c15548e14fb">
 
 
-- **2.运行init**：
+- **2.运行init**：<br>
 **0号进程（init进程）**：所有进程的祖宗，父进程<br>
 **0号进程需要运行的程序（许多程序需要开机启动）**："守护进程"（daemon）<br>
 运行级别（runlevel）：<br>
@@ -36,7 +36,7 @@ Linux系统有7个运行级别(runlevel)：<br>
     运行级别5：X11控制台，登录后进入图形GUI模式
     运行级别6：系统正常关闭并重启，默认运行级别不能设为6，否则不能正常启动
 
-- **3.系统初始化**：
+- **3.系统初始化**：<br>
 init的配置文件中 si::sysinit:/etc/rc.d/rc.sysinit<br>
 **调用执行 /etc/rc.d/rc.sysinit**<br>
 **rc.sysinit**：<br>
@@ -53,7 +53,7 @@ init的配置文件中 si::sysinit:/etc/rc.d/rc.sysinit<br>
 每个运行级中将运行哪些守护进程，用户可以通过chkconfig或setup中的"System Services"来自行设定<br>
 - <img width="416" alt="image" src="https://github.com/NightBonsai/Linux_README/assets/107353989/100833c3-0e19-4649-aa4f-84418811a2c3">
 
-- **4.建立终端**：
+- **4.建立终端**：<br>
 rc执行完毕，返回init<br>
 基本系统环境已经设置好了，各种守护进程也已启动<br>
 init接下来会打开6个终端，以便用户登录系统，Linux预设提供了六个命令窗口终端机让我们来登录<br>
@@ -65,7 +65,7 @@ init接下来会打开6个终端，以便用户登录系统，Linux预设提供�
       5:2345:respawn:/sbin/mingetty tty5
       6:2345:respawn:/sbin/mingetty tty6
 	
-- **5.用户登录系统**：
+- **5.用户登录系统**：<br>
 
       （1）命令行登录
       （2）ssh登录
