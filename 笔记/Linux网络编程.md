@@ -54,7 +54,7 @@
     struct epoll_event：epoll事件结构体
     int epoll_create(int size);                                                               //创建epoll
     int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event);                       //epoll事件队列添加or删除事件
-    int epoll_wait(int epfd, struct epoll_event* events, int maxevents, int timeout);					//等待事件队列事件发生
+    int epoll_wait(int epfd, struct epoll_event* events, int maxevents, int timeout);	    //等待事件队列事件发生
 
 **epoll解决同时接收N个客户端连接fd问题**<br>
 **但无法解决任务并发，客户端排队问题**<br>
