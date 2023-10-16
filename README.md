@@ -8,5 +8,5 @@
 [5.Linux网络编程](https://github.com/NightBonsai/Linux_README/blob/main/%E7%AC%94%E8%AE%B0/Linux%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B.md)<br>
 [6.Linux Shell脚本语言](https://github.com/NightBonsai/Linux_README/blob/main/%E7%AC%94%E8%AE%B0/Linux%20Shell%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80.md)<br>
 [8.Linux系统启动引导](https://github.com/NightBonsai/Linux_README/blob/main/%E7%AC%94%E8%AE%B0/Linux%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E5%BC%95%E5%AF%BC.md)<br>
-[9.Linux终端命令行]()<br>
+[9.Linux终端命令行](https://github.com/NightBonsai/Linux_README/blob/main/%E7%AC%94%E8%AE%B0/Linux%20%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4%E8%A1%8C.md)<br>
 [10.Linux系统开发]()<br>
